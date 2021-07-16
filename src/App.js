@@ -2,6 +2,7 @@ import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
 import './index.css';
 import { NavBar } from './Components/NavBar/NavBar.js';
 import { Main } from './Components/Main/Main.js';
+import { About } from './Components/About/About.js';
 
 function App() {
   return (
@@ -9,7 +10,9 @@ function App() {
       <NavBar />
       <Route path="/Main">
         <Main />
-        {/* <About /> */}
+      </Route>
+      <Route path="/about">
+        <About />
       </Route>
       {/* <Route path="/TwitterAnalytics">
         <TwitterAnalytics />

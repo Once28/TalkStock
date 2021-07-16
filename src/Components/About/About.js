@@ -4,7 +4,7 @@ import "../../index.css";
 import { Container, Row, Col } from 'reactstrap';
 
 // Nav bar with both media queries
-export function Main() {
+export function About() {
   return (
     <header>
         <h1>Talk Stock</h1>
