@@ -5,7 +5,14 @@ import { Container, Row, Col } from 'reactstrap';
 
 // Nav bar with both media queries
 export function Main() {
-  return (
+  if (window.matchMedia("(min-width: 768px)")){
+    return (
+      <main>
+        <h1>Talk Stock</h1>
+      </main>
+    );
+  } else {
+    return (
     <header>
         <h1>Talk Stock</h1>
         <h2>Predicting Tommorow</h2>
@@ -34,4 +41,6 @@ export function Main() {
         </Container>
     </header>
   );
+  }
+  
 }
