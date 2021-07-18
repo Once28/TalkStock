@@ -13,19 +13,19 @@ export function NavBar() {
               <NavLink
                 className="active"
                 to="/TwitterAnalytics"
-                aria-label="Go to home page"
+                aria-label="Go to Twitter Analytics page"
               >
                 Twitter Analytics
               </NavLink>
               <NavLink
                 to="/NewsAnalytics"
-                aria-label="Go to food waste tracker page"
+                aria-label="Go to News Analytics page"
               >
                 News Analytics
               </NavLink>
               <NavLink
                 to="/RedditAnalytics"
-                aria-label="Go to food waste tracker page"
+                aria-label="Go to Reddit Analytics page"
               >
                 Reddit Analytics
               </NavLink>

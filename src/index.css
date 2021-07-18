@@ -6,10 +6,17 @@
 }
 
 body {
-  margin: 0;
-  font-family: 'B612', sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+}
+
+.arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+  float: left;
 }
 
 code {
@@ -35,18 +42,23 @@ header h2 {
 }
 
 .box {
-  float: left;
   text-decoration: none;
   height: 147px;
   width: 147px;
-  margin-top: 10%;
-  margin-right: 5%;
-  margin-left: 5%;
+  margin-bottom: 50%;
   background-color: white;
   border-radius: 50px;
   font-size: 30px;
   color: #1D3557;
   text-align: center;
+}
+
+.right {
+
+}
+
+.left {
+  
 }
 
 .navbar {
@@ -70,6 +82,10 @@ header h2 {
     background-color: #1D3557;
     display: block;
     text-decoration: none;
+  }
+
+  nav {
+    background-color: #1D3557;
   }
 }
 
