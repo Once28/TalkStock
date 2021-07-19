@@ -11,7 +11,6 @@ export function NavBar() {
           <Row>
             <Col>
               <NavLink
-                className="active"
                 to="/TwitterAnalytics"
                 aria-label="Go to Twitter Analytics page"
               >

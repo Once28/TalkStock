@@ -51,6 +51,7 @@ header h2 {
   font-size: 30px;
   color: #1D3557;
   text-align: center;
+  padding: 5%;
 }
 
 .right {
@@ -71,7 +72,6 @@ header h2 {
   }
 
   h1 {
-    background-color: #1D3557;
     -webkit-text-stroke: 11px #A8DADC;
     -webkit-text-fill-color: #1D3557;
     font-size: 288px;
@@ -90,5 +90,5 @@ header h2 {
 }
 
 @media (min-width: 992px) {
-  
+
 }
