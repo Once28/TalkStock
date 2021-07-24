@@ -66,12 +66,21 @@ header h2 {
   display: none;
 }
 
+img {
+  width: 389px;
+  height: 242px;
+}
+
 @media (min-width: 768px) {
-  main {
+  .arrow {
+    display: none;
+  }
+
+  header {
     background-color: #1D3557;
   }
 
-  h1 {
+  .title {
     -webkit-text-stroke: 11px #A8DADC;
     -webkit-text-fill-color: #1D3557;
     font-size: 288px;
@@ -86,6 +95,16 @@ header h2 {
 
   nav {
     background-color: #1D3557;
+  }
+
+  footer h4 {
+    font-size: 32px;
+    color: #1D3557;
+  }
+
+  footer p {
+    font-size: 22;
+    color: #1D3557;
   }
 }
 
