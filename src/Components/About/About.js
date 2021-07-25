@@ -16,20 +16,20 @@ export function About() {
               <p>Talk Stock is an application aimed to predict a stock’s volitility based on how much it is being mentioned online.</p>
             </Col>
             <Col>
-            
+               <h3>Who am I?</h3>
+              <img src="Profile.jpg" alt="my profile picture" />
+             <p>I am Justin Zeng, a freshman at the University of Washington studying informatics. Every since the gamestop event in Janurary, I’ve felt that what people say online has a lot of impact than just insider news in companies</p>
             </Col>
             <Col>
-            
+              <h3>What is my goal?</h3>
+              <p>My goal for Talk Stock is to use the popularity of each stock to predict its volitility.</p>
             </Col>
           </Row>
         </Container>
         
         
-        <h3>Who am I?</h3>
-        <img src="Profile.jpg" alt="my profile picture" />
-        <p>I am Justin Zeng, a freshman at the University of Washington studying informatics. Every since the gamestop event in Janurary, I’ve felt that what people say online has a lot of impact than just insider news in companies</p>
-        <h3>What is my goal?</h3>
-        <p>My goal for Talk Stock is to use the popularity of each stock to predict its volitility.</p>
+        
+        
       </body>
     );
   } else {

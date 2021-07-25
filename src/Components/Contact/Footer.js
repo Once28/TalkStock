@@ -12,14 +12,27 @@ export function Footer() {
           <Row>
             <Col>
               <h4>Contact Information</h4>
-              <p>Phone# <break /> (425)-442-5243</p> <break />
-              <p>Email Adress <break /> <Link>jzenguw@uw.edu</Link></p>
+              <p>Phone Number</p>
+              <p>(425)-442-5243</p>
             </Col>
             <Col>
               <h4>Follow Us</h4>
+              <p>Social Media</p>
             </Col>
             <Col>
               {/* <img src="" alt=""></img> */}
+            </Col>
+          </Row>
+          <Row>
+            <Col>
+              <p>Email Adress</p>
+              <Link>jzenguw@uw.edu</Link>
+            </Col>
+            <Col>
+              
+            </Col>
+            <Col>
+            
             </Col>
           </Row>
         </Container>

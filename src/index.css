@@ -3,10 +3,17 @@
 * {
   background-color: #F1FAEE;
   font-family: "B612", sans-serif;
+  box-sizing: border-box;
+}
+
+html {
+  max-width: 100%;
+  height: 100%;
 }
 
 body {
   text-align: center;
+  background-color: #F1FAEE;
 }
 
 .arrow {
@@ -16,7 +23,6 @@ body {
   padding: 3px;
   transform: rotate(135deg);
   -webkit-transform: rotate(135deg);
-  float: left;
 }
 
 code {
@@ -54,14 +60,6 @@ header h2 {
   padding: 5%;
 }
 
-.right {
-
-}
-
-.left {
-  
-}
-
 .navbar {
   display: none;
 }
@@ -76,7 +74,7 @@ img {
     display: none;
   }
 
-  header {
+  header h1 {
     background-color: #1D3557;
   }
 
