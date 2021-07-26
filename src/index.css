@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=B612:wght@400;700&display=swap');
 
 * {
-  background-color: #F1FAEE;
   font-family: "B612", sans-serif;
   box-sizing: border-box;
 }
@@ -74,35 +73,67 @@ img {
     display: none;
   }
 
-  header h1 {
+  nav a, nav row{
     background-color: #1D3557;
+    text-decoration: none;
+    color: #A8DADC;
+    font-size: 32px;
+  }
+
+  header {
+    height: 1024px;
+    background-color: #1D3557;
+    text-align: center;
+  }
+
+  body {
+    height: 1024px;
+  }
+
+  body h2 {
+    font-size: 72px;
+    color: #1D3557;
+  }
+
+  body h3 {
+    font-size: 48px;
+  }
+
+  body p {
+    font-size: 36px;
   }
 
   .title {
     -webkit-text-stroke: 11px #A8DADC;
     -webkit-text-fill-color: #1D3557;
+    stroke-linejoin: round;
+    font-weight: bold;
     font-size: 288px;
     text-align: center;
   }
 
   .navbar {
-    background-color: #1D3557;
     display: block;
-    text-decoration: none;
   }
 
   nav {
     background-color: #1D3557;
   }
 
+  footer {
+    background-color: white;
+  }
+
+
   footer h4 {
     font-size: 32px;
-    color: #1D3557;
+    color: #457B9D;
   }
 
   footer p {
-    font-size: 22;
+    font-size: 22px;
     color: #1D3557;
+    
   }
 }
 

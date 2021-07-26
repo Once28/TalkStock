@@ -26,10 +26,6 @@ export function About() {
             </Col>
           </Row>
         </Container>
-        
-        
-        
-        
       </body>
     );
   } else {

@@ -8,7 +8,7 @@ export function Main() {
   if (windowMatch.matches){
     return (
       <header>
-        <h1 className="title">Talk Stock</h1>
+          <h1 className="title">Talk Stock</h1>
       </header>
     );
   } else {

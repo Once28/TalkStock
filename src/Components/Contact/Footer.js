@@ -20,7 +20,7 @@ export function Footer() {
               <p>Social Media</p>
             </Col>
             <Col>
-              {/* <img src="" alt=""></img> */}
+              <h4>Logo</h4>
             </Col>
           </Row>
           <Row>
@@ -29,7 +29,7 @@ export function Footer() {
               <Link>jzenguw@uw.edu</Link>
             </Col>
             <Col>
-              
+              <img src="./icons/icon-facebook.svg" alt="facebook icon"></img>
             </Col>
             <Col>
             

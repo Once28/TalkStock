@@ -10,25 +10,25 @@ export function NavBar() {
         <Container className="navbar">
           <Row>
             <Col>
-              <NavLink
-                to="/TwitterAnalytics"
-                aria-label="Go to Twitter Analytics page"
-              >
-                Twitter Analytics
-              </NavLink>
-              <NavLink
-                to="/NewsAnalytics"
-                aria-label="Go to News Analytics page"
-              >
-                News Analytics
-              </NavLink>
-              <NavLink
-                to="/RedditAnalytics"
-                aria-label="Go to Reddit Analytics page"
-              >
-                Reddit Analytics
+              <NavLink to="/Main" activeStyle={{fontWeight: "bold", color: "#A8DADC"}} aria-label="Go to Home page">
+                Home
               </NavLink>
             </Col>
+            <Col>
+              <NavLink to="/TwitterAnalytics" activeStyle={{fontWeight: "bold", color: "#A8DADC"}} aria-label="Go to Twitter Analytics page">
+                Twitter Analytics
+              </NavLink>
+              </Col>
+              <Col>
+              <NavLink to="/NewsAnalytics" activeStyle={{fontWeight: "bold", color: "#A8DADC"}} aria-label="Go to News Analytics page">
+                News Analytics
+              </NavLink>
+              </Col>
+              <Col>
+              <NavLink to="/RedditAnalytics" activeStyle={{fontWeight: "bold", color: "#A8DADC"}} aria-label="Go to Reddit Analytics page">
+                Reddit Analytics
+              </NavLink>
+              </Col>
           </Row>
         </Container>
       </nav>
