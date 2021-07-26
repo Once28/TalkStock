@@ -10,6 +10,11 @@ html {
   height: 100%;
 }
 
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
 body {
   text-align: center;
   background-color: #F1FAEE;
@@ -24,10 +29,7 @@ body {
   -webkit-transform: rotate(135deg);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
-}
+
 
 header h1, header h2{
   text-align: center;
@@ -73,6 +75,14 @@ img {
     display: none;
   }
 
+  .navbar {
+    display: block;
+  }
+
+  nav {
+    background-color: #1D3557;
+  }
+
   nav a, nav row{
     background-color: #1D3557;
     text-decoration: none;
@@ -83,7 +93,16 @@ img {
   header {
     height: 1024px;
     background-color: #1D3557;
-    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .title {
+    -webkit-text-stroke: 11px #A8DADC;
+    -webkit-text-fill-color: #1D3557;
+    stroke-linejoin: round;
+    font-weight: bold;
+    font-size: 288px;
   }
 
   body {
@@ -103,27 +122,25 @@ img {
     font-size: 36px;
   }
 
-  .title {
-    -webkit-text-stroke: 11px #A8DADC;
-    -webkit-text-fill-color: #1D3557;
-    stroke-linejoin: round;
-    font-weight: bold;
-    font-size: 288px;
-    text-align: center;
+  .analytics {
+    background-color: #A8DADC;
   }
 
-  .navbar {
-    display: block;
+  .choose {
+    margin: 10%;
+    font-size: 48px;
+    color: #F1FAEE;
   }
 
-  nav {
-    background-color: #1D3557;
+  #dropdown-basic {
+    margin-bottom: 10%;
+    background-color: #F1FAEE;
+    color: #A8DADC;
   }
 
   footer {
     background-color: white;
   }
-
 
   footer h4 {
     font-size: 32px;

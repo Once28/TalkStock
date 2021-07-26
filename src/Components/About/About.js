@@ -31,7 +31,12 @@ export function About() {
   } else {
     return (
       <body>
-        <Link to="/Main"><i className="arrow"></i></Link>
+        <Container>
+          <Row>
+            <Col><Link to="/Main"><i className="arrow"></i></Link></Col>
+            <Col></Col>
+          </Row>
+        </Container>
         <h1>About</h1>
         <h2>What is TalkStock</h2>
         <p>Talk Stock is an application aimed to predict a stock’s volitility based on how much it is being mentioned online.</p>
