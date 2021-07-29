@@ -15,21 +15,21 @@ export function NavBar() {
                   Home
                 </NavLink>
               </Col>
-              <Col>
+              {/* <Col>
                 <NavLink to="/TwitterAnalytics" onClick={() => setAnalytics(true)} activeStyle={{fontWeight: "bold", color: "#457B9D"}} aria-label="Go to Twitter Analytics page">
                   Twitter Analytics
                 </NavLink>
-                </Col>
-                <Col>
+              </Col> */}
+              <Col>
                 <NavLink to="/NewsAnalytics" onClick={() => setAnalytics(true)}  activeStyle={{fontWeight: "bold", color: "#457B9D"}} aria-label="Go to News Analytics page">
                   News Analytics
                 </NavLink>
-                </Col>
-                <Col>
+              </Col>
+              {/* <Col>
                 <NavLink to="/RedditAnalytics" onClick={() => setAnalytics(true)}  activeStyle={{fontWeight: "bold", color: "#457B9D"}} aria-label="Go to Reddit Analytics page">
                   Reddit Analytics
                 </NavLink>
-                </Col>
+              </Col> */}
             </Row>
           </Container>
         </nav>

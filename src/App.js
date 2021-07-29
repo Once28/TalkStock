@@ -45,11 +45,11 @@ function App() {
         </Route>
         {/* <Route path="/TwitterAnalytics">
           <TwitterAnalytics />
-        </Route>
+        </Route> */}
         <Route path="/NewsAnalytics">
           <NewsAnalytics />
         </Route>
-        <Route path="/RedditAnalytics">
+        {/* <Route path="/RedditAnalytics">
           <RedditAnalytics />
         </Route> */}
         <Route exact path="/">

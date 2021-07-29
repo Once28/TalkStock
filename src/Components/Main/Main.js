@@ -27,12 +27,12 @@ export function Main() {
             </Col>
           </Row>
           <Row>
-            <Col>
+            {/* <Col>
               <Link className="box" to="/NewsAnalytics">News Analytics</Link>
             </Col>
             <Col>
               <Link className="box" to="/RedditAnalytics">Reddit Analytics</Link>
-            </Col>
+            </Col> */}
           </Row>
           {/* <Row>
             <Col>
